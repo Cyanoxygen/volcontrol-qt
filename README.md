@@ -29,6 +29,20 @@ Running
 ./main.py
 ```
 
+Converting UI file
+-----
+
+You may modify the UI file using Qt Creator, and after modification you should convert them to a Python file.
+
+To convert the UI file, simply run:
+
+```
+cd ui
+pyuic5 mainwindow.ui > mainWindow.py 
+```
+
+In case of missing `pyuic5`, you may add `~/.local/bin` or `/usr/local/bin` to your PATH.
+
 License
 ------
 
