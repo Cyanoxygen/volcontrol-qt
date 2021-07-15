@@ -3,6 +3,10 @@ World's Best Volume Control UI
 
 Inspired by HN article: https://readhacker.news/s/4QqYJ
 
+**It only supports PulseAudio.**
+
+![Screenshot](misc/screenshot.png)
+
 Requirements
 ------
 
