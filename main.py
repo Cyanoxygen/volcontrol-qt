@@ -21,7 +21,7 @@ def toggleMute(pulse: pulsectl.Pulse, sink: pulsectl.PulseSinkInfo, src: QCheckB
 
 def main():
     sinks = pulsectl.Pulse("TestApp")
-    sinklist = []
+    sinklist: List[pulsectl.PulseSinkInfo] = []
     boxlist: List[QRadioButton] = []
     for s in sinks.sink_list():
         sinklist.append(s)
